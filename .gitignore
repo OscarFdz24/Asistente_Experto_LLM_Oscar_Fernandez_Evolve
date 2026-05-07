@@ -2,8 +2,6 @@
 .env.*
 !.env.example
 
-chroma_db/
-
 __pycache__/
 *.py[cod]
 *$py.class
