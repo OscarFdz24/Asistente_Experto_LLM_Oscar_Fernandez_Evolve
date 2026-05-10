@@ -25,6 +25,12 @@ Ejemplos de preguntas que puede resolver:
 - Compara a Mohamed Salah y Raphinha usando xG, xAG, PrgC y SCA.
 - Que significa PSxG+/- para evaluar porteros?
 
+## Guia de ejecución
+
+Para ejecutar todo el notebook correctamente, debes ejecutar la primera celda al principio jutno con la intalación de las dependencias importantes.
+
+Una vez hecho esto o incluso dandole a ejecutar todo, el notebook se ejecutará entero sin problema. Debes de tener configurada la API Key necesaria para la ejecucion del modelo de Gemini y si la cuota llega al limite, se deberan comentar las celdas especificadas en el propio notebook que son principalmente para pruebas, asi ahorrando cuota.
+
 ## Arquitectura del sistema
 
 El notebook implementa un pipeline completo de RAG y agente conversacional:
